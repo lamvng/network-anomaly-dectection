@@ -1,6 +1,6 @@
-## Network-anomaly-dectection using Pyspark
+## Phát hiện bất thường trong mạng với KMeans và Pyspark
 
-Dự án sử dụng thuật toán KMeans triển khai trên Pyspark, với bộ dữ liệu [KDD Cup 1999](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) để dự đoán hành vi bất thường trong mạng.
+Dự án sử dụng thuật toán KMeans triển khai trên `pyspark`, với bộ dữ liệu [KDD Cup 1999](http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html) để dự đoán hành vi bất thường trong mạng.
 
 - **Đầu vào**: Dữ liệu các gói tin tương tác với hệ thống, dưới dạng file `csv`.
 - **Đầu ra**: Hành vi của gói tin được phân các nhóm: bình thường, quét cổng hàng loạt, mass ping...
